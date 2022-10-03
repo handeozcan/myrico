@@ -50,10 +50,10 @@ body {
 }
 
 .header_button {
-    width: 160px;
-    padding: 6px 10px;
+    padding: 10px 40px;
     margin-right: 10px;
     color: white;
+    font-size: 1rem;
     border-radius: 3px;
     border: none;
     background-color: rgb(163, 199, 42);
@@ -65,10 +65,11 @@ body {
     border: 1px solid rgb(28, 120, 171);
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .navbar_section div a {
-    padding: 10px 10px;
+    padding: 10px 20px;
     float: left;
     text-decoration: none;
     color: white;
@@ -82,7 +83,7 @@ body {
 .search_section {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 0 7px 7px 0;
     padding: 0;
 }
@@ -95,7 +96,9 @@ body {
     border: 1px solid rgb(187, 186, 186);
 
 }
-
+.search::placeholder{
+    color: rgb(187, 186, 186);
+}
 .search_icon {
     border-radius: 0 2px 2px 0;
     border: 1px solid rgb(174, 174, 174);
